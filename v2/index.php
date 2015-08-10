@@ -8,9 +8,9 @@
     ignore_user_abort();
 	ob_start();
 ?><!DOCTYPE html>
-<html>
+<html lang="en" data-useragent="<?php echo $_SERVER['HTTP_USER_AGENT']; ?>">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="Author" content="Tino Didriksen <mail@tinodidriksen.com>">
