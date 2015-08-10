@@ -24,7 +24,7 @@ if (window != window.top) {
 }
 </script>
 
-<style type="text/css">
+<style>
 body {
     margin: 0;
     padding: 0;
@@ -32,18 +32,19 @@ body {
     background-color: #fff;
     font-family: verdana, arial, sans-serif;
     line-height: 140%;
+    margin: 0;
 }
 a {
     text-decoration: none;
+    color: #0783FF;
 }
 a:hover {
     text-decoration: underline;
 }
 </style>
-
 </head>
 
-<body text="#000000" bgcolor="#FFFFFF" link="#0783FF" vlink="#0783FF" alink="#0682FE" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 <tr><td valign="top" align="left" height="32" style="background-image: URL('http://pjj.cc/gfx/up_tile.gif'); background-repeat: repeat-x;">
 	<table width="100%" border="0" cellspacing="0" cellpadding="0" height="32">
@@ -543,11 +544,11 @@ Use the <a href="recover.php"><b>Chat Recover Form</b></a>
 </center>
 <table cellspacing="0" cellpadding="0" border="0" align="center"><tr><td>
 <blockquote>
-<font color="#0783FF">Chat Title:</font> Very simple, and exactly what the name says.<br>
-<font color="#0783FF">Description:</font> The chat theme/setting as the admin writes it.<br>
-<font color="#0783FF">Chatters:</font> Number of people in the chat.<br>
-<font color="#0783FF">Observers:</font> Number of people looking on the chat. Includes chatters.<br>
-<font color="#0783FF">Status:</font> Open, Moderated or Locked. Access ranges from View/Chat over View/NoChat to NoView/NoChat for unregistered users.
+<span style="color:#0783FF;">Chat Title:</span> Very simple, and exactly what the name says.<br>
+<span style="color:#0783FF;">Description:</span> The chat theme/setting as the admin writes it.<br>
+<span style="color:#0783FF;">Chatters:</span> Number of people in the chat.<br>
+<span style="color:#0783FF;">Observers:</span> Number of people looking on the chat. Includes chatters.<br>
+<span style="color:#0783FF;">Status:</span> Open, Moderated or Locked. Access ranges from View/Chat over View/NoChat to NoView/NoChat for unregistered users.
 </blockquote>
 </td></tr></table>
 <br>
@@ -556,7 +557,7 @@ Use the <a href="recover.php"><b>Chat Recover Form</b></a>
 <a href="http://www.serverbeach.com/?REF=SUY9Q94N9U" title="ServerBeach"><img src="http://i.pjj.cc/5c5e0de85031c654782ce024af7bd537.gif" border="0" alt="ServerBeach"></a>
 </center>
 -->
-<div align="center">
+<div style="text-align:center">
     <a href="legal/">Terms of Service</a>
     |
     <a href="mailto:legal@projectjj.com">Copyright 1999-<?=date('Y');?> Project JJ</a>
